@@ -8,7 +8,7 @@ const App = () => {
     <BrowserRouter>
       <Toaster position="top-right" reverseOrder={false} />
       <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+        <div>
           <Navbar />
           <Hero />
         </div>
